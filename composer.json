@@ -1,0 +1,29 @@
+{
+  "name": "medusa/validation",
+  "type": "library",
+  "description": "Validation Objects for common Use-Cases",
+  "require": {
+    "php": ">=7.4",
+    "ext-mbstring": "*",
+    "giggsey/libphonenumber-for-php": "^8.12"
+  },
+  "require-dev": {
+    "medusa/dev-tools": "^1.0",
+    "phpunit/phpunit": "~9"
+  },
+  "authors": [
+    {
+      "name": "Anton Zoffmann",
+      "email": "anton.zoffmann@getmedusa.org"
+    },
+    {
+      "name": "Pascal Schnell",
+      "email": "pascal.schnell@getmedusa.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Medusa\\Validation\\": "src"
+    }
+  }
+}
