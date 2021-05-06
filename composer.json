@@ -2,6 +2,7 @@
   "name": "medusa/validation",
   "type": "library",
   "description": "Validation Objects for common Use-Cases",
+  "license": "MIT",
   "require": {
     "php": ">=7.4",
     "ext-mbstring": "*",
