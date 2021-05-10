@@ -42,7 +42,7 @@ class HashValidation implements ValidationInterface {
         $pattern = '/^[a-f0-9]{' . $this->length . '}$/i';
 
         if (!preg_match($pattern, $value)) {
-            return new InvalidResult('no valid hash (length: ' . $this->length . ')');
+            return new InvalidResult($value, 'no valid hash (length: ' . $this->length . ')');
         }
 
         return new ValidResult($value);

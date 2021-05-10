@@ -16,7 +16,6 @@ class MandatoryValidation implements ValidationInterface {
      * @param mixed $value
      * @csIgnoreParamType $value could be anything
      * @return ResultInterface
-     * @throws Exception\ValidationException
      */
     public function validate($value): ResultInterface {
         if (!$this->exists($value)) {
